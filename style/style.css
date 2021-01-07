@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+}
+ul{
+    display: inline-block;
+    width: -webkit-fill-available;
+    
+    text-align: right;
+
+}
+li{
+    display: inline;
+}
+h1{
+    text-align: left;
+}
+a{
+
+}
