@@ -3,17 +3,38 @@ body{
 }
 ul{
     display: inline-block;
-    width: -webkit-fill-available;
-    
+    clear: right;
     text-align: right;
-
+    float: right;
 }
 li{
     display: inline;
+}
+.logo-container{
+    float: left;
+}
+.logo-container, .logo-container >span{
+   display: inline-block;
+   text-align: left;
+}
+.logo-container img{
+    margin-right: 10px;
+}
+span{
+    text-align: left;
+}
+span h2,p{
+    margin: 0;
+}
+span h2{
+   font-size: 40px;
 }
 h1{
     text-align: left;
 }
 a{
 
+}
+hr{
+    clear: both;
 }
